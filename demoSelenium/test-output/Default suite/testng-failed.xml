@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.java.mehod2.Tc2">
+      <class name="com.selenium.oops.inheritance.hrm.TestDemo">
         <methods>
-          <include name="testCaseFlow"/>
+          <include name="testLogin"/>
         </methods>
-      </class> <!-- com.java.mehod2.Tc2 -->
+      </class> <!-- com.selenium.oops.inheritance.hrm.TestDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

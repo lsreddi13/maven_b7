@@ -1,10 +1,14 @@
 package com.oops.inheritance;
 
 public class A extends C{
-	
+	//vars - static 
 	static int id = 10457;
 	static String name ="sasi";
 	static String password = "sasi123";
+	//instance vars
+	int zip = 500018;
+	int cell = 1919191919;
+	
 	public static void testLogin() {
 		System.out.println("enter user id : "+ id);
 		System.out.println("enter password : "+password);
