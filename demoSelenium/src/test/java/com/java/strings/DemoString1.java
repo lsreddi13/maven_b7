@@ -8,11 +8,11 @@ public class DemoString1 {
 	
 	public void testLength() {
 		int stringLength = s.length(); // length is method in the string class
-//		System.out.println(stringLength);
-//		
-//		char c = s.charAt(10);
-//		
-//		System.out.println(c);
+		System.out.println(stringLength);
+		
+		char c = s.charAt(10);
+		
+		System.out.println(c);
 		
 		
 		//singleton class
