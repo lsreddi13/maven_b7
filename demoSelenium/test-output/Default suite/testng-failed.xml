@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.oops.inheritance.hrm.TestDemo">
+      <class name="com.selenium.testng.dataProvider.DemoDataProvider">
         <methods>
-          <include name="testLogin"/>
+          <include name="test"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.selenium.oops.inheritance.hrm.TestDemo -->
+      </class> <!-- com.selenium.testng.dataProvider.DemoDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
