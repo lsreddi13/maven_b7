@@ -1,5 +1,7 @@
 package com.oops.inheritance.hrm;
 
+import org.openqa.selenium.By;
+
 public class LoginPage extends TestBase{
 
 	// page object model framework
@@ -16,7 +18,7 @@ public class LoginPage extends TestBase{
 	// enter user
 	public void enterUserName(String name) {
 		System.out.println(name);
-
+		driver.findElement(By.name("username")).sendKeys("Admin");
 	}
 
 	// enter password
